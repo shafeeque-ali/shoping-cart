@@ -1,4 +1,4 @@
-//feture 1
+//feture
 import React from "react";
 
 function App() {
