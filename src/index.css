@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 html {
   font-size: 62.1%;
   box-sizing: border-box;
@@ -10,9 +11,10 @@ body,
 body,
 input,
 select,
-textarea {
+textarea,
+button {
   font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
 .grid-container {
@@ -50,4 +52,83 @@ footer {
 
 a:hover {
   color: orange;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  flex: 10 60;
+}
+.sidebar {
+  flex: 2;
+}
+
+/*product*/
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.products li {
+  flex: 1 1 25rem;
+  height: 47rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  width: 27rem;
+  flex-direction: column;
+
+  justify-content: space-between;
+  height: 100%;
+}
+.product a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 37rem;
+  max-height: 37rem;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price div,
+.product-price button {
+  text-align: center;
+  flex: 1;
+}
+.product-price div {
+  font-size: 2rem;
+}
+button {
+  padding: 1rem;
+  border: 0.1rem rgb(214, 208, 208) solid;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button-primary {
+  background-color: rgb(199, 159, 26);
+  font-size: large;
+}
+.button-primary:hover {
+  border: 0.1rem rgb(85, 82, 82) solid;
 }
