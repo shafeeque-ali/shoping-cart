@@ -132,3 +132,12 @@ a {
 .button-primary:hover {
   border: 0.1rem rgb(85, 82, 82) solid;
 }
+/*filter*/
+
+.filter {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem rgb(216, 211, 211) solid;
+}
