@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": "dress1",
+      "title": "Dress 1",
+      "image": "/images/dress1.jpg",
+      "description": "about dress 1",
+      "price": 19,
+      "availableSize": ["xl", "xxl"]
+    },
+    {
+      "id": "dress2",
+      "title": "Dress 2",
+      "image": "/images/dress2.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 20,
+      "availableSize": ["xl", "xxl,M"]
+    },
+    {
+      "id": "dress3",
+      "title": "Dress 3",
+      "image": "/images/dress3.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 30,
+      "availableSize": ["xl", "xxl", "M"]
+    },
+    {
+      "id": "dress4",
+      "title": "Dress 4",
+      "image": "/images/dress4.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M"]
+    },
+    {
+      "id": "dress5",
+      "title": "Dress 5",
+      "image": "/images/dress5.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M", "xl"]
+    },
+    {
+      "id": "dress6",
+      "title": "Dress 6",
+      "image": "/images/dress6.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M", "xl", "xxl"]
+    },
+    {
+      "id": "dress7",
+      "title": "Dress 7",
+      "image": "/images/dress7.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M", "xl", "s"]
+    },
+    {
+      "id": "dress8",
+      "title": "Dress 8",
+      "image": "/images/dress8.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M", "xl", "xxl"]
+    },
+    {
+      "id": "dress9",
+      "title": "Dress 9",
+      "image": "/images/dress9.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M", "xl", "xxl"]
+    },
+    {
+      "id": "dress10",
+      "title": "Dress 8",
+      "image": "/images/dress10.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M", "xl", "xxl"]
+    },
+    {
+      "id": "dress11",
+      "title": "Dress 11",
+      "image": "/images/dress11.jpg",
+      "description": "about dress After the postoperative check at the clinic, Molly took him to the Tank ",
+      "price": 50,
+      "availableSize": ["M", "xl", "xxl"]
+    }
+  ]
+}
