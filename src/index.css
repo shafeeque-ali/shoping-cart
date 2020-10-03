@@ -141,3 +141,6 @@ a {
   margin: 1rem;
   border-bottom: 0.1rem rgb(216, 211, 211) solid;
 }
+.filter div {
+  flex: 1;
+}
