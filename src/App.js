@@ -17,6 +17,9 @@ class App extends Component {
         : [],
     };
   }
+  createOrder = (order) => {
+    alert("Need to save order for " + order.name);
+  };
   sortProducts = (e) => {
     //impli
 
@@ -103,6 +106,7 @@ class App extends Component {
                 <Carting
                   cartItems={this.state.cartItems}
                   removeFromCart={this.removeFromCart}
+                  createOrder={this.createOrder}
                 />{" "}
               </div>
             )}
