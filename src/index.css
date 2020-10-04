@@ -213,3 +213,7 @@ form {
   padding: 0.9rem;
   border: 0.1rem rgb(194, 189, 189) solid;
 }
+.form-container button {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
