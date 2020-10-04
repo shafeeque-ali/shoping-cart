@@ -59,10 +59,7 @@ a:hover {
   flex-wrap: wrap;
 }
 .main {
-  flex: 10 60;
-}
-.sidebar {
-  flex: 2;
+  flex: 9 60;
 }
 
 /*product*/
@@ -143,4 +140,57 @@ a {
 }
 .filter div {
   flex: 1;
+}
+
+/*cart items */
+
+.cart {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+.cart-header {
+  border-bottom: 0.1rem rgb(216, 211, 211) solid;
+}
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-items img {
+  width: 5rem;
+}
+.cart-items li {
+  display: flex;
+}
+.cart-items li div {
+  padding: 0.5rem;
+}
+.cart-items li div:last-child {
+  flex: 1;
+}
+.cart-items li div button {
+  padding: 0.1rem;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.total button {
+  background-color: rgb(199, 159, 26);
+  font-size: medium;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.total > div,
+.total > button {
+  flex: 1;
+}
+.total > div {
+  font-size: 2rem;
 }
