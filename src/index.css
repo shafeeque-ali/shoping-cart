@@ -194,3 +194,22 @@ a {
 .total > div {
   font-size: 2rem;
 }
+/*checkout form*/
+form {
+  width: 100%;
+}
+.form-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.form-container li input {
+  padding: 0.9rem;
+  border: 0.1rem rgb(194, 189, 189) solid;
+}
