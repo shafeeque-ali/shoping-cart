@@ -5,3 +5,11 @@
 # step 2 : create github respository
 
 # step 3 : first commit
+
+......
+
+# step 4 : install ' react-reveal ' for animation
+
+....
+
+# step 5 : install 'react-modal ' for
