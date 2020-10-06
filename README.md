@@ -12,4 +12,8 @@
 
 ....
 
-# step 5 : install 'react-modal ' for
+# step 5 : install 'react-modal ' for make inset screen for wonder
+
+# step 6 : step 6
+
+# step 7 : npm i express,mogoose,shortid,body-parser,nodemon

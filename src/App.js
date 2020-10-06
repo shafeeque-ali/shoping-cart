@@ -58,7 +58,7 @@ class App extends Component {
     const cartItems = this.state.cartItems.slice();
     let allreadyInCart = false;
     cartItems.forEach((item) => {
-      if (item.id === product.id) {
+      if (item._id === product._id) {
         item.count++;
         allreadyInCart = true;
       }
@@ -71,7 +71,7 @@ class App extends Component {
   };
   removeFromCart = (item) => {
     const cartItems = this.state.cartItems.slice();
-    const filterCartItem = cartItems.filter((x) => x.id !== item.id);
+    const filterCartItem = cartItems.filter((x) => x._id !== item._id);
     this.setState({
       ...this.state,
       cartItems: filterCartItem,
