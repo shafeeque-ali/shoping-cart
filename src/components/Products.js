@@ -5,7 +5,7 @@ import Modal from "react-modal";
 
 export default class Products extends Component {
   constructor(props) {
-    super(props);
+    super();
     this.state = {
       product: null,
     };
@@ -18,6 +18,7 @@ export default class Products extends Component {
   };
   render() {
     const { product } = this.state;
+
     return (
       <div>
         <Fade bottom cascade>
